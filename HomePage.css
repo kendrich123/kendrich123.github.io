@@ -1,0 +1,57 @@
+body { 
+  background-image: url(post.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family:courier;
+}
+ul {
+text-align: center;
+list-style-type: none;
+margin-top: 25px;
+font-family:courier;
+}
+ul li {
+display: inline-block;
+color: red;
+background-color: white;
+}
+ul li a {
+text-decoration:none;
+color: red;
+padding: 10px 40px;
+border: 1px solid aqua;
+transition: 1s ease;
+background-color: white;
+}
+ul li a:hover{
+background-color: #EE82EE;
+color: #00FFFF;
+}
+h1{
+font-size: 100px;
+text-align: center;
+color: white;
+display: inline-block;
+padding: 0px 120px;
+}
+h2{
+font-size: 50px;
+text-align: center;
+color: white;
+padding: 0px 120px;
+transform: translate(-14%, -50%);
+}
+h1:hover {
+background-color: #00FFFF;
+color: white;
+transition: 1s ease;
+}
+.left{
+padding: 10px 75px;
+}
+p{
+font-size: 50px;
+text-align: center;
+color: white;
+}
